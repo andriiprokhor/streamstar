@@ -1,4 +1,4 @@
-## StreamStar
+![StreamStar](./public/logo2.svg)
 
 Technologies:
 

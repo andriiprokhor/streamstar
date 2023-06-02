@@ -1,7 +1,6 @@
 import React from "react"
 import Button from "./Button"
 import Avatar from "./Avatar"
-import logo from "../../public/logo.svg"
 
 const Navigation = () => {
   return (
