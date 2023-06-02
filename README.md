@@ -4,4 +4,4 @@ Technologies:
 
 Next.js, React, Tailwind CSS, TypeScript
 
-## Demo: [Click!](https://streamstar.vercel.app/)
+## Demo: [Click](https://streamstar.vercel.app/)
