@@ -18,6 +18,7 @@ const FriendsList = () => {
             <Friend
               img={friend.img}
               nick={friend.nick}
+              key={friend.nick}
               isOnline={friend.isOnline}
             />
           ))}
