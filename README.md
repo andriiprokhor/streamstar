@@ -2,4 +2,4 @@
 
 Technologies:
 
-Next.js, React, Tailwind CSS
+Next.js, React, Tailwind CSS, TypeScript
