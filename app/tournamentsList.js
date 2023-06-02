@@ -4,7 +4,7 @@ export const tournamentsList = [
     prize: "$10",
     maxTeams: 6,
     enrolled: 2,
-    img: "https://img.freepik.com/premium-vector/golden-cup-isometric-vector-illustration_580420-155.jpg  ",
+    img: "https://img.freepik.com/premium-vector/golden-cup-isometric-vector-illustration_580420-155.jpg",
   },
   {
     title: "Valorant 5x5",
