@@ -29,8 +29,8 @@ const LeftBar = () => {
         <p>Popular games</p>
       </div>
       <div className="flex flex-col">
-        {gamesList.map((game) => (
-          <GameAside img={game.img} title={game.title} />
+        {gamesList.map((game, index) => (
+          <GameAside img={game.img} title={game.title} key={index} />
         ))}
       </div>
     </aside>
