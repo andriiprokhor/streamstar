@@ -4,7 +4,7 @@ import { gamesList } from "../gamesList"
 
 const LeftBar = () => {
   return (
-    <aside className="w-[10%] bg-[#16171B] h-[calc(100vh-56px)] ">
+    <aside className="w-[13%] bg-[#16171B] h-[calc(100vh-56px)] ">
       <div className="flex items-center lg:justify-between px-[10px] py-[6px] border-[#4F4F4F] border-b-[1px] justify-center hover:bg-[#212327] cursor-pointer">
         <div className="flex items-center gap-[8px] ">
           <svg

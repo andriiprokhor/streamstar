@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import SmallStream from "./SmallStream"
 import GameCard from "./GameCard"
 import { browserGamesList } from "../browserGamesList"
@@ -8,7 +8,7 @@ import Footer from "./Footer"
 
 const MainPage = () => {
   return (
-    <main className="w-full overflow-y-auto h-[calc(100vh-56px)] bg-[#0E0E0E] px-[20px] py-[24px] ">
+    <main className="w-full overflow-y-auto h-[calc(100vh-56px)] bg-[#0E0E0E] px-[20px] py-[24px] relative">
       <h1>HOT LIVE CHANNELS</h1>
       <div className="  relative transition hover:scale-[100.5%] bg-center rounded-xl cursor-pointer bg-[linear-gradient(to_bottom,rgba(49,84,44,0.0),rgba(0,0,0,1)),url('https://preview.redd.it/crystal-maiden-persona-hero-art-is-absolutely-incredible-v0-nhi25ljvbbl91.jpg?auto=webp&s=6d490a3803e0ad0c2cf79e93cd8aac86b19d61fa')]  bg-cover h-[400px] mt-[18px]">
         <p className="py-2 px-4 bg-red-600 w-[68px] text-center absolute top-8 left-8 rounded-lg">

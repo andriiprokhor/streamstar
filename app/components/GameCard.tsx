@@ -10,7 +10,7 @@ const GameCard = ({ img }: IGameCard) => {
   }
   return (
     <div
-      className=" transition-transform hover:-translate-y-[2px] bg-center rounded-xl cursor-pointer bg-cover sm:h-[360px] h-[90px] w-full mt-[18px] "
+      className=" transition-transform hover:-translate-y-[6px] bg-center rounded-xl cursor-pointer bg-cover sm:h-[360px] h-[90px] w-full mt-[18px] "
       style={divStyle}
     ></div>
   )

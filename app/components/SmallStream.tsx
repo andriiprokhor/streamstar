@@ -14,7 +14,7 @@ const SmallStream = ({ title, img, nick, views }: ISmallStream) => {
 
   return (
     <div
-      className="relative transition hover:-translate-y-[2px] bg-center rounded-xl cursor-pointer bg-cover h-[280px] md:w-1/3 w-full mt-[18px]"
+      className="relative transition hover:-translate-y-[4px] hover:translate-x-[4px] bg-center rounded-xl cursor-pointer bg-cover h-[280px] md:w-1/3 w-full mt-[18px]"
       style={{ backgroundImage: `${gradientBackground}, ${backgroundImage}` }}
     >
       <p className="py-1 px-2 bg-red-600 w-[68px] text-center absolute top-4 left-4 rounded-lg text-[12px]">
